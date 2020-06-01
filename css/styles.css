@@ -1,0 +1,70 @@
+h1,
+h5 {
+  color: white;
+}
+
+body {
+  padding: 0px;
+}
+
+span {
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.digest {
+  color: black;
+  text-align: center;
+}
+
+.principal {
+  margin-top: 0px;
+}
+
+.centraliza {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-resultados {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-result {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.header-result {
+  margin-bottom: 0px;
+}
+
+.header-result {
+  width: 400px;
+  text-align: center;
+}
+
+.result {
+  margin-top: 0px;
+  border: 1px solid #616161;
+}
+
+#digest-result-users {
+  text-align: center;
+}
+
+#resultado-usuarios {
+  margin-right: 25px;
+}
+
+#text-input {
+  width: 600px;
+  margin-right: 20px;
+}

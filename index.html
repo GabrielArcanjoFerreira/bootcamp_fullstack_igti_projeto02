@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Pesquisa de usuários</title>
+  </head>
+  <body>
+    <div class="principal">
+      <div class="card-panel grey darken-3 header principal">
+        <h1 class="center">PESQUISA DE USUÁRIOS</h1>
+      </div>
+
+      <div id="spinner" class="centraliza">
+        <div class="preloader-wrapper small active">
+          <div class="spinner-layer">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <span style="margin-left: 20px; font-size: 1.5rem;">Aguarde...</span>
+      </div>
+
+      <div id="controls" class="centraliza">
+        <input
+          placeholder="Nome do usuário"
+          id="text-input"
+          type="text"
+          disabled
+        />
+        <a
+          id="button-search"
+          class="waves-effect waves-light btn-small grey darken-3 disabled"
+          >Pesquisar</a
+        >
+      </div>
+
+      <div class="container-resultados">
+        <div id="resultado-usuarios" class="resultado">
+          <div class="card-panel grey darken-3 header-result">
+            <h5>Usuarios</h5>
+          </div>
+
+          <div class="result">
+            <div id="digest-result-users"></div>
+            <div id="users"></div>
+          </div>
+        </div>
+
+        <div id="resultado-estatisticas" class="resultado">
+          <div class="card-panel grey darken-3 header-result">
+            <h5>Estatísticas</h5>
+          </div>
+          <div class="result">
+            <div id="estatisticas"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="./js/scripts.js"></script>
+  </body>
+</html>
